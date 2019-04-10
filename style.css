@@ -1,8 +1,10 @@
 body{
   margin:0;
+  background-color: linen;
+  color: tan;
 }
 a {
-  color: black;
+  color: darksalmon;
   text-decoration: none;
 }
 h1{

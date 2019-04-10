@@ -4,6 +4,42 @@
 <head>
   <title>WELCOME</title>
   <link rel="stylesheet" href="style.css">
+  <script>
+  var Links = {
+    SetColor: function(color){
+      var alist = document.querySelectorAll('a');
+      var i = 0;
+      while(i<alist.length){
+        console.log(alist[i]);
+        alist[i].style.color =color;
+        i = i+1;
+      }
+    }
+  }
+  var Body = {
+    SetColor: function(color){
+        document.querySelector('body').style.color = color;
+    },
+    SetBackgroundColor: function(color){
+      document.querySelector('body').style.backgroundColor = color;
+    }
+  }
+  function colorhandler(self){
+    var target =document.querySelector('body');
+    if(self.value ==='rose'){
+      Body.SetBackgroundColor('mistyrose');
+      Body.SetColor('rosybrown');
+      Links.SetColor('IndianRed');
+      self.value ='linen';
+    }
+    else{
+      Body.SetBackgroundColor('linen');
+      Body.SetColor('tan');
+      Links.SetColor('darksalmon');
+      self.value ='rose';
+    }
+  }
+  </script>
 </head>
 <body>
   <h1><a href = "index.html">leah's EXCHANGE STUDENT</a></h1>
@@ -14,23 +50,25 @@
       <li><a href = "3.html">TRAVEL</a></li>
     </ol>
     <div id = "article">
+      <input type = "button" value = "rose" onclick="
+      colorhandler(this);
+      ">
       <h2>leah's EXCHANGE STUDENT</h2>
       <h3> in NETHERLANDS <h3>
-
-      <img src = "amsterdam.jpg" width = "30%">
-      <p>
-        My name is Lee, JeongUm and Leah.
-        I am Korea exchange student in <strong>NETHERLANDS</strong>.<br>
-        This is my story.<br>
-      </p>
-      <p>
-        <div id="disqus_thread"></div>
-    <script>
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://web1-xyftyjvwqj.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
+        <img src = "amsterdam.jpg" width = "30%">
+        <p>
+          My name is Lee, JeongUm and Leah.
+          I am Korea exchange student in <strong>NETHERLANDS</strong>.<br>
+          This is my story.<br>
+        </p>
+        <p>
+          <div id="disqus_thread"></div>
+          <script>
+          (function() { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          s.src = 'https://web1-xyftyjvwqj.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
         })();
         </script>
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
@@ -38,8 +76,9 @@
       <p>
         나는 <a href = "https://www.w3.org/TR/html5/" target = "_black" title = "html5 specification">
           Hypertext Markup Language(HTML)</a>로 만들어 졌어요
-      </p>
+        </p>
+
+      </div>
     </div>
-  </div>
   </body>
-</html>
+  </html>
