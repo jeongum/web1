@@ -1,0 +1,41 @@
+/*Game css*/
+
+#introduction{
+    /* background-color: color; */
+    color:white;
+    z-index: 1;
+    width: 600px;
+    height: 400px;
+}
+
+#introduction section{
+    display:block;
+    max-width:100%;
+    height:300px;
+    /* background-color: orange; */
+}
+
+#introduction p{
+    display:block;
+    padding:25px;
+    /* background-color:red; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 250px;
+}
+
+#introduction button{
+    margin-top: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+/* #game_content > div > div
+{
+    background-color:green;
+    margin:50px;
+    max-width: 800px;
+    max-height:595px;
+    z-index: 0;
+} */

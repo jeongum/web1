@@ -1,0 +1,16 @@
+body{
+    background-color: 	#00bfff;
+    color:white;
+    text-align: center;
+}
+
+#game_content{
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#schoolUrl{
+    color:white;
+    text-decoration-line: none;
+}
