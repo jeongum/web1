@@ -1,0 +1,35 @@
+{"frames": [
+{
+    "filename": "unitedKingdomFlag",
+    "frame": {"x":48,"y":16,"w":16,"h":16},
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {"x":0,"y":0,"w":192,"h":96},
+    "sourceSize": {"w":192,"h":96}
+},
+{
+    "filename": "koreaFlag",
+    "frame": {"x":16,"y":46,"w":16,"h":16},
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {"x":0,"y":0,"w":192,"h":96},
+    "sourceSize": {"w":192,"h":96}
+},
+{
+    "filename": "unitedStatesFlag",
+    "frame": {"x":48,"y":0,"w":16,"h":16},
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {"x":0,"y":0,"w":192,"h":96},
+    "sourceSize": {"w":192,"h":96}
+},
+{
+    "filename": "franceFlag",
+    "frame": {"x":48,"y":32,"w":16,"h":16},
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {"x":0,"y":0,"w":192,"h":96},
+    "sourceSize": {"w":192,"h":96}
+}
+]
+}

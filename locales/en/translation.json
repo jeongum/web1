@@ -1,0 +1,35 @@
+{
+    "title":"I am here as well",
+    "play": "Play",
+    "loading":"Loading",
+    "options": "Options",
+    "visitCountry": "Choose the country you want to visit",
+    "exitpause":"Click to exit this pause",
+    "score":"Score",
+    "KoreaStory":[
+        "Hi! My name is Misun and I am a 13 year old year girl.",
+        "Who likes to upload her daily life on the social networking services, such as Intergram and Facebood.",
+
+        "However, my classmate became jealous on my Facebood pictures and he stole my bag and phone.",
+        "But, my phone was still logged in on the social networking services, which gave him the chance to send texts to my friends.",
+        "In other words, can you help my with getting my stuff back, before he makes more social damage!?"
+    ],
+    "usaStory":[
+        "Yo I am Kevin! And I am an 11 year old boy from the United States of America",
+        "Before, I did love to bring my self-cooked-meals to school and I loved to share it with my classmates",
+        
+        "However, my meals are often unhealthy, so they gave me the nickname 'Baker Pig'.",
+        "Next, they started teasing me with anonymous calls, while repeatedly saying the nickname",
+        "For this reason hanging up the phone is my best self-defence",
+        "In spite of this slander, can you help me to avoiding the bad words?"
+    ],
+    "bullyCries":[
+        "Give back my stuff!",
+        "Log out right now!",
+        "Shame yourself for stealing someones identity."
+    ],
+    "swearWords":{},
+    "move": "Move",
+    "jump": "Jump",
+    "countries":["Korea", "United States", "France"] 
+}

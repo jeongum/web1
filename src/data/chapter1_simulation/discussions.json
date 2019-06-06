@@ -1,0 +1,43 @@
+{
+    "c1":{
+        "dis1":{
+            "image": "cat.png",
+            "sound": "shuinvy-childhood.mp3",
+            "text":[
+                "Why did the cat crossed the road?"
+            ],
+            "arguments":[
+                { "text":"Because, he wanted to avoid bullies?", "score":-5},
+                { "text":"He was affraid of cars?", "score":-1},
+                { "text":"It their own choice to cross the road.", "score":1}
+            ],
+            "next": "dis1"
+        },
+        "dis2":{
+            "image": "cat.png",
+            "sound": "shuinvy-childhood.mp3",
+            "text":[
+                "Close you eyes and listen to the music!"
+            ],
+            "arguments":[
+                { "text":"NO!", "score":-1},
+                { "text":"Oke, gently", "score":3},
+                { "text":"I'm not sure.", "score":0}
+            ],
+            "next": "dis1"
+        },
+        "dis3":{
+            "image": "cat.png",
+            "sound": "shuinvy-childhood.mp3",
+            "text":[
+                "Why did the cat crossed the road?"
+            ],
+            "arguments":[
+                { "text":"Because, he wanted to avoid bullies?", "score":-5},
+                { "text":"He was affraid of cars?", "score":-1},
+                { "text":"It their own choice to cross the road.", "score":1}
+            ],
+            "next": "c2.dis1"
+        }
+    }
+}

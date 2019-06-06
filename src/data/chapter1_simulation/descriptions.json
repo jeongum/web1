@@ -1,0 +1,44 @@
+{
+    "c1":{
+        "f1":{
+            "image": "cat.png",
+            "sound": "shuinvy-childhood.mp3",
+            "text":[
+                "In a world",
+                "Where people are bullied",
+                "No one deared to go outside"
+            ],
+            "next": "f2"
+        },
+        "f2":{
+            "image": "cat.png",
+            "sound": "shuinvy-childhood.mp3",
+            "text":[
+                "In a world",
+                "Where people are bullied",
+                "No one deared to go outside"
+            ],
+            "next": "f3"
+        },
+        "f3":{
+            "image": "cat.png",
+            "sound": "shuinvy-childhood.mp3",
+            "text":[
+                "In a world",
+                "Where people are bullied",
+                "No one deared to go outside"
+            ],
+            "next": "f4"
+        },
+        "f4":{
+            "image": "cat.png",
+            "sound": "shuinvy-childhood.mp3",
+            "text":[
+                "In a world",
+                "Where people are bullied",
+                "No one deared to go outside"
+            ],
+            "next": "f5"
+        }
+    }
+}
